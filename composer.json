@@ -1,0 +1,24 @@
+{
+    "name": "ulpi/holidays",
+    "description": "A PHP7 library for handling holidays from different countries.",
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.3.*"
+    },
+    "license": "LGPLv3",
+    "authors": [
+        {
+            "name": "Ulpi Kans",
+            "email": "radarier+pk@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-0": {
+            "Ulpi\\Holidays\\": "src/"
+        }
+    }
+}
